@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\onedrive\\m\u00E1y t\u00EDnh\\bienbadong\\bienbadong\\bienbadong\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\bienbadong\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\bienbadong\\giaodien.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\giaodien.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contact.aspx",
+              "DocumentMoniker": "C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\BienBaDong\\Contact.aspx",
+              "RelativeDocumentMoniker": "BienBaDong\\Contact.aspx",
+              "ToolTip": "C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\BienBaDong\\Contact.aspx",
+              "RelativeToolTip": "BienBaDong\\Contact.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-10T03:02:04.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\BienBaDong\\Default.aspx",
+              "RelativeDocumentMoniker": "BienBaDong\\Default.aspx",
+              "ToolTip": "C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\BienBaDong\\Default.aspx",
+              "RelativeToolTip": "BienBaDong\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-10T01:52:59.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GiaoDien.Master",
+              "DocumentMoniker": "C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\BienBaDong\\GiaoDien.Master",
+              "RelativeDocumentMoniker": "BienBaDong\\GiaoDien.Master",
+              "ToolTip": "C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\BienBaDong\\GiaoDien.Master",
+              "RelativeToolTip": "BienBaDong\\GiaoDien.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-10T01:47:50.313Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
