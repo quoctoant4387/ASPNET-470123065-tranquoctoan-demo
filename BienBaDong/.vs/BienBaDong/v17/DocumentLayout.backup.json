@@ -1,18 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\",
+  "WorkspaceRootPath": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\onedrive\\m\u00E1y t\u00EDnh\\bienbadong\\bienbadong\\bienbadong\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\danhsachbaiviet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\danhsachbaiviet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\onedrive\\m\u00E1y t\u00EDnh\\bienbadong\\bienbadong\\bienbadong\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\baiviet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\baiviet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\onedrive\\m\u00E1y t\u00EDnh\\bienbadong\\bienbadong\\bienbadong\\giaodien.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\trangchu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\trangchu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\quanlybaiviet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\quanlybaiviet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\quanlybaiviet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\quanlybaiviet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\quanlytaikhoan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\quanlytaikhoan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\quanlytaikhoan.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\quanlytaikhoan.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\giaodien.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\giaodien.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\giaodien.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\giaodien.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\thembai.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\thembai.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\adminpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\adminpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\dangnhap.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\dangnhap.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\dangky.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\dangky.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\dangky.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\dangky.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\themmoibaiviet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\themmoibaiviet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\xoabai.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\xoabai.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\suabai.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\suabai.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\dangxuat.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\dangxuat.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\dangnhap.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\dangnhap.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +99,268 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Contact.aspx",
-              "DocumentMoniker": "C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\BienBaDong\\Contact.aspx",
-              "RelativeDocumentMoniker": "BienBaDong\\Contact.aspx",
-              "ToolTip": "C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\BienBaDong\\Contact.aspx",
-              "RelativeToolTip": "BienBaDong\\Contact.aspx",
+              "Title": "DanhSachBaiViet.aspx",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DanhSachBaiViet.aspx",
+              "RelativeDocumentMoniker": "BienBaDong\\DanhSachBaiViet.aspx",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DanhSachBaiViet.aspx",
+              "RelativeToolTip": "BienBaDong\\DanhSachBaiViet.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-07-10T03:02:04.687Z",
+              "WhenOpened": "2025-07-15T14:42:44.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\BienBaDong\\Default.aspx",
-              "RelativeDocumentMoniker": "BienBaDong\\Default.aspx",
-              "ToolTip": "C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\BienBaDong\\Default.aspx",
-              "RelativeToolTip": "BienBaDong\\Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-07-10T01:52:59.987Z",
+              "Title": "BaiViet.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\BaiViet.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\BaiViet.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\BaiViet.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\BaiViet.aspx.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwCMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:38:08.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrangChu.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\TrangChu.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\TrangChu.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\TrangChu.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\TrangChu.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:36:15.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TrangChu.aspx",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\TrangChu.aspx",
+              "RelativeDocumentMoniker": "BienBaDong\\TrangChu.aspx",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\TrangChu.aspx",
+              "RelativeToolTip": "BienBaDong\\TrangChu.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-15T14:33:48.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuanLyBaiViet.aspx",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyBaiViet.aspx",
+              "RelativeDocumentMoniker": "BienBaDong\\QuanLyBaiViet.aspx",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyBaiViet.aspx",
+              "RelativeToolTip": "BienBaDong\\QuanLyBaiViet.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-15T13:49:33.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "GiaoDien.Master",
-              "DocumentMoniker": "C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\BienBaDong\\GiaoDien.Master",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\GiaoDien.Master",
               "RelativeDocumentMoniker": "BienBaDong\\GiaoDien.Master",
-              "ToolTip": "C:\\Users\\quoct\\OneDrive\\M\u00E1y t\u00EDnh\\BienBaDong\\BienBaDong\\BienBaDong\\GiaoDien.Master",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\GiaoDien.Master",
               "RelativeToolTip": "BienBaDong\\GiaoDien.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-07-10T01:47:50.313Z",
+              "WhenOpened": "2025-07-14T09:30:25.582Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\Web.config",
+              "RelativeDocumentMoniker": "BienBaDong\\Web.config",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\Web.config",
+              "RelativeToolTip": "BienBaDong\\Web.config",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-15T10:44:42.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuanLyTaiKhoan.aspx",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyTaiKhoan.aspx",
+              "RelativeDocumentMoniker": "BienBaDong\\QuanLyTaiKhoan.aspx",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyTaiKhoan.aspx",
+              "RelativeToolTip": "BienBaDong\\QuanLyTaiKhoan.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-15T00:31:25.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuanLyTaiKhoan.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyTaiKhoan.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\QuanLyTaiKhoan.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyTaiKhoan.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\QuanLyTaiKhoan.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T01:32:34.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GiaoDien.Master.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\GiaoDien.Master.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\GiaoDien.Master.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\GiaoDien.Master.cs",
+              "RelativeToolTip": "BienBaDong\\GiaoDien.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T23:41:57.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuanLyBaiViet.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyBaiViet.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\QuanLyBaiViet.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyBaiViet.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\QuanLyBaiViet.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:49:43.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\AdminPage.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\AdminPage.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\AdminPage.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\AdminPage.aspx.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwBAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T06:04:29.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ThemBai.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\ThemBai.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\ThemBai.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\ThemBai.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\ThemBai.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T06:10:24.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DangNhap.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DangNhap.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\DangNhap.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DangNhap.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\DangNhap.aspx.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAB4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:35:16.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ThemMoiBaiViet.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\ThemMoiBaiViet.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\ThemMoiBaiViet.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\ThemMoiBaiViet.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\ThemMoiBaiViet.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T06:10:40.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DangKy.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DangKy.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\DangKy.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DangKy.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\DangKy.aspx.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T06:31:34.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DangKy.aspx",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DangKy.aspx",
+              "RelativeDocumentMoniker": "BienBaDong\\DangKy.aspx",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DangKy.aspx",
+              "RelativeToolTip": "BienBaDong\\DangKy.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-15T06:31:24.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "XoaBai.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\XoaBai.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\XoaBai.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\XoaBai.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\XoaBai.aspx.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T06:12:59.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SuaBai.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\SuaBai.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\SuaBai.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\SuaBai.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\SuaBai.aspx.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T06:09:14.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DangXuat.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DangXuat.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\DangXuat.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DangXuat.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\DangXuat.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T06:02:44.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DangNhap.aspx",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DangNhap.aspx",
+              "RelativeDocumentMoniker": "BienBaDong\\DangNhap.aspx",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DangNhap.aspx",
+              "RelativeToolTip": "BienBaDong\\DangNhap.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-15T04:24:52.482Z"
             }
           ]
         }
