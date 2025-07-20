@@ -24,13 +24,22 @@ namespace BienBaDong
         protected global::System.Web.UI.WebControls.Label lblMessage;
 
         /// <summary>
-        /// txtTieuDe control.
+        /// txtTenBaiViet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTieuDe;
+        protected global::System.Web.UI.WebControls.TextBox txtTenBaiViet;
+
+        /// <summary>
+        /// ddlTheLoai control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlTheLoai;
 
         /// <summary>
         /// txtNoiDung control.

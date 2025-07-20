@@ -1,28 +1,53 @@
 ﻿using System;
-using System.Data;
+using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
+using System.Linq;
+using System.Web;
 using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace BienBaDong
 {
-    public partial class DanhSachBaiViet : Page
+    public partial class DanhSachBaiViet : System.Web.UI.Page
     {
+        string connStr = ConfigurationManager.ConnectionStrings["ChuoiKetNoi"].ConnectionString;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                LoadDanhSachBaiViet();
+                string maTheLoai = Request.QueryString["iMaTheloai"];
+                if (!string.IsNullOrEmpty(maTheLoai))
+                    LoadBaiVietTheoTheLoai(maTheLoai);
+                else
+                    LoadTatCaBaiViet();
             }
         }
 
-        private void LoadDanhSachBaiViet()
+        void LoadBaiVietTheoTheLoai(string maTheLoai)
         {
-            string connStr = System.Configuration.ConfigurationManager.ConnectionStrings["ChuoiKetNoi"].ConnectionString;
             using (SqlConnection conn = new SqlConnection(connStr))
             {
-                string query = "SELECT MaBaiViet, TenBaiViet, AnhBia FROM BaiViet";
-                SqlDataAdapter da = new SqlDataAdapter(query, conn);
-                DataTable dt = new DataTable();
+                string sql = @"SELECT MaBaiViet, TenBaiViet FROM BaiViet WHERE MaTheLoai=@maTheLoai";
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                cmd.Parameters.AddWithValue("@maTheLoai", maTheLoai);
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                var dt = new System.Data.DataTable();
+                da.Fill(dt);
+
+                rptBaiViet.DataSource = dt;
+                rptBaiViet.DataBind();
+            }
+        }
+
+        void LoadTatCaBaiViet()
+        {
+            using (SqlConnection conn = new SqlConnection(connStr))
+            {
+                string sql = @"SELECT MaBaiViet, TenBaiViet FROM BaiViet";
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                var dt = new System.Data.DataTable();
                 da.Fill(dt);
 
                 rptBaiViet.DataSource = dt;

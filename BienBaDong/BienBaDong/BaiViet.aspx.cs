@@ -1,50 +1,81 @@
 ﻿using System;
-using System.Data;
 using System.Data.SqlClient;
-using System.Web.UI;
+using System.Configuration;
+using System.IO;
 
 namespace BienBaDong
 {
-    public partial class BaiViet : System.Web.UI.Page
+    public partial class ThemBai : System.Web.UI.Page
     {
+        string connStr = ConfigurationManager.ConnectionStrings["ChuoiKetNoi"].ConnectionString;
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                string sMaBaiViet = Request.QueryString["iMaBaiViet"];
-                if (!string.IsNullOrEmpty(sMaBaiViet) && int.TryParse(sMaBaiViet, out int maBaiViet))
-                {
-                    LoadBaiViet(maBaiViet);
-                }
-                else
-                {
-                    Response.Redirect("~/DanhSachBaiViet.aspx"); // Nếu không có mã, quay lại danh sách
-                }
+                LoadTheLoai();
             }
         }
 
-        private void LoadBaiViet(int maBaiViet)
+        void LoadTheLoai()
         {
-            string connStr = System.Configuration.ConfigurationManager.ConnectionStrings["ChuoiKetNoi"].ConnectionString;
             using (SqlConnection conn = new SqlConnection(connStr))
             {
-                string query = "SELECT TenBaiViet, NoiDung, HinhAnh FROM BaiViet WHERE MaBaiViet = @MaBaiViet";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@MaBaiViet", maBaiViet);
+                string sql = "SELECT MaTheLoai, TenTheLoai FROM TheLoai";
+                SqlDataAdapter da = new SqlDataAdapter(sql, conn);
+                var dt = new System.Data.DataTable();
+                da.Fill(dt);
 
-                conn.Open();
-                SqlDataReader reader = cmd.ExecuteReader();
-                if (reader.Read())
+                ddlTheLoai.DataSource = dt;
+                ddlTheLoai.DataTextField = "TenTheLoai";
+                ddlTheLoai.DataValueField = "MaTheLoai";
+                ddlTheLoai.DataBind();
+
+                ddlTheLoai.Items.Insert(0, new System.Web.UI.WebControls.ListItem("-- Chọn thể loại --", ""));
+            }
+        }
+
+        protected void btnLuu_Click(object sender, EventArgs e)
+        {
+            string tieuDe = txtTenBaiViet.Text.Trim();
+            string maTheLoai = ddlTheLoai.SelectedValue;
+            string noiDung = txtNoiDung.Text.Trim();
+            string maNguoiDung = null;
+
+            if (string.IsNullOrEmpty(tieuDe) || string.IsNullOrEmpty(maTheLoai) || string.IsNullOrEmpty(noiDung))
+            {
+                lblMessage.Text = "Vui lòng nhập đầy đủ thông tin bắt buộc!";
+                return;
+            }
+
+            string MaNguoiDung = Session["TenDangNhap"]?.ToString();
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connStr))
                 {
-                    lblTieuDe.Text = reader["TenBaiViet"].ToString();
-                    ltrNoiDung.Text = reader["NoiDung"].ToString();
-                    imgHinh.ImageUrl = "~/Hinh/" + reader["HinhAnh"].ToString();
+                    conn.Open();
+                    string sql = @"INSERT INTO BaiViet (TenBaiViet, MaTheLoai, NoiDung, NgayDang, MaNguoiDung)
+                           VALUES (@TenBaiViet, @MaTheLoai, @NoiDung, @NgayDang, @MaNguoiDung)";
+                    SqlCommand cmd = new SqlCommand(sql, conn);
+                    cmd.Parameters.AddWithValue("@TenBaiViet", tieuDe);
+                    cmd.Parameters.AddWithValue("@MaTheLoai", maTheLoai);
+                    cmd.Parameters.AddWithValue("@NoiDung", noiDung);
+                    cmd.Parameters.AddWithValue("@NgayDang", DateTime.Now);
+                    cmd.Parameters.AddWithValue("@MaNguoiDung", maNguoiDung ?? (object)DBNull.Value);
+
+                    cmd.ExecuteNonQuery();
                 }
-                else
-                {
-                    lblTieuDe.Text = "Không tìm thấy bài viết.";
-                }
-                conn.Close();
+                lblMessage.ForeColor = System.Drawing.Color.Green;
+                lblMessage.Text = "Đã thêm bài viết thành công!";
+                txtTenBaiViet.Text = "";
+                ddlTheLoai.SelectedIndex = 0;
+                txtNoiDung.Text = "";
+            }
+            catch (Exception ex)
+            {
+                lblMessage.ForeColor = System.Drawing.Color.Red;
+                lblMessage.Text = "Lỗi khi lưu bài viết: " + ex.Message;
             }
         }
     }

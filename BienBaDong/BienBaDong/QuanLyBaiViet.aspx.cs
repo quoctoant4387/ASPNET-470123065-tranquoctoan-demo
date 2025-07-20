@@ -1,123 +1,71 @@
 ﻿using System;
-using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Web.UI.WebControls;
 
 namespace BienBaDong
 {
     public partial class QuanLyBaiViet : System.Web.UI.Page
     {
-        string connStr = ConfigurationManager.ConnectionStrings["ChuoiKetNoi"].ConnectionString;
-
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["TenDangNhap"] == null ||
-                !string.Equals(Session["Quyen"]?.ToString(), "Admin", StringComparison.OrdinalIgnoreCase))
+            if (Session["TenDangNhap"] == null || Session["Quyen"] == null ||
+                !Session["Quyen"].ToString().Trim().Equals("admin", StringComparison.OrdinalIgnoreCase))
             {
                 Response.Redirect("TrangChu.aspx");
-                return;
             }
 
             if (!IsPostBack)
-                LoadDanhSach();
+            {
+                LoadDanhSachBaiViet();
+            }
         }
 
-        private void LoadDanhSach(string keyword = "")
+        void LoadDanhSachBaiViet()
         {
+            string connStr = System.Configuration.ConfigurationManager.ConnectionStrings["ChuoiKetNoi"].ConnectionString;
             using (SqlConnection conn = new SqlConnection(connStr))
             {
-                string query = "SELECT * FROM BaiViet WHERE TieuDe LIKE @kw ORDER BY NgayDang DESC";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@kw", "%" + keyword + "%");
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                conn.Open();
+                // Lấy dữ liệu từ bảng BaiViet, bạn điều chỉnh tên trường theo CSDL thực tế
+                string sql = "SELECT MaBaiViet, TenBaiViet, NgayDang, NgayCapNhat, MaNguoiDung FROM BaiViet ORDER BY NgayDang DESC";
+                SqlDataAdapter da = new SqlDataAdapter(sql, conn);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
+
                 gvBaiViet.DataSource = dt;
                 gvBaiViet.DataBind();
             }
         }
 
-        protected void btnTimKiem_Click(object sender, EventArgs e)
+        protected void btnThemMoi_Click(object sender, EventArgs e)
         {
-            string kw = txtTimKiem.Text.Trim();
-            LoadDanhSach(kw);
+            Response.Redirect("ThemBai.aspx");
         }
 
-        protected void btnThem_Click(object sender, EventArgs e)
+        protected void gvBaiViet_RowCommand(object sender, System.Web.UI.WebControls.GridViewCommandEventArgs e)
         {
-            string tieuDe = txtTieuDe.Text.Trim();
-            string noiDung = txtNoiDung.Text.Trim();
-            string nguoiDang = Session["TenDangNhap"]?.ToString() ?? "Admin";
-            DateTime ngayDang = DateTime.Now;
+            string maBaiViet = e.CommandArgument.ToString();
 
-            using (SqlConnection conn = new SqlConnection(connStr))
+            // Sửa bài viết
+            if (e.CommandName == "EditBaiViet")
             {
-                string query = "INSERT INTO BaiViet (TieuDe, NoiDung, NguoiDang, NgayDang) VALUES (@TieuDe, @NoiDung, @NguoiDang, @NgayDang)";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@TieuDe", tieuDe);
-                cmd.Parameters.AddWithValue("@NoiDung", noiDung);
-                cmd.Parameters.AddWithValue("@NguoiDang", nguoiDang);
-                cmd.Parameters.AddWithValue("@NgayDang", ngayDang);
-
-                conn.Open();
-                cmd.ExecuteNonQuery();
+                Response.Redirect("SuaBai.aspx?iMaBaiViet=" + maBaiViet);
             }
 
-            lblThongBao.Text = "Thêm bài viết thành công!";
-            LoadDanhSach();
-        }
-
-        protected void gvBaiViet_RowEditing(object sender, GridViewEditEventArgs e)
-        {
-            gvBaiViet.EditIndex = e.NewEditIndex;
-            LoadDanhSach(txtTimKiem.Text.Trim());
-        }
-
-        protected void gvBaiViet_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
-        {
-            gvBaiViet.EditIndex = -1;
-            LoadDanhSach(txtTimKiem.Text.Trim());
-        }
-
-        protected void gvBaiViet_RowUpdating(object sender, GridViewUpdateEventArgs e)
-        {
-            int id = Convert.ToInt32(gvBaiViet.DataKeys[e.RowIndex].Value);
-            GridViewRow row = gvBaiViet.Rows[e.RowIndex];
-
-            string tieuDe = ((TextBox)row.Cells[1].Controls[0]).Text.Trim();
-            string noiDung = ((TextBox)row.Cells[2].Controls[0]).Text.Trim();
-
-            using (SqlConnection conn = new SqlConnection(connStr))
+            // Xóa bài viết
+            if (e.CommandName == "DeleteBaiViet")
             {
-                string query = "UPDATE BaiViet SET TieuDe=@TieuDe, NoiDung=@NoiDung, NgayDang=GETDATE() WHERE MaBV=@MaBV";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@TieuDe", tieuDe);
-                cmd.Parameters.AddWithValue("@NoiDung", noiDung);
-                cmd.Parameters.AddWithValue("@MaBV", id);
-
-                conn.Open();
-                cmd.ExecuteNonQuery();
+                string connStr = System.Configuration.ConfigurationManager.ConnectionStrings["ChuoiKetNoi"].ConnectionString;
+                using (SqlConnection conn = new SqlConnection(connStr))
+                {
+                    conn.Open();
+                    string sql = "DELETE FROM BaiViet WHERE MaBaiViet=@MaBaiViet";
+                    SqlCommand cmd = new SqlCommand(sql, conn);
+                    cmd.Parameters.AddWithValue("@MaBaiViet", maBaiViet);
+                    cmd.ExecuteNonQuery();
+                }
+                LoadDanhSachBaiViet();
             }
-
-            gvBaiViet.EditIndex = -1;
-            LoadDanhSach(txtTimKiem.Text.Trim());
-        }
-
-        protected void gvBaiViet_RowDeleting(object sender, GridViewDeleteEventArgs e)
-        {
-            int id = Convert.ToInt32(gvBaiViet.DataKeys[e.RowIndex].Value);
-
-            using (SqlConnection conn = new SqlConnection(connStr))
-            {
-                string query = "DELETE FROM BaiViet WHERE MaBV=@MaBV";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@MaBV", id);
-                conn.Open();
-                cmd.ExecuteNonQuery();
-            }
-
-            LoadDanhSach(txtTimKiem.Text.Trim());
         }
     }
 }

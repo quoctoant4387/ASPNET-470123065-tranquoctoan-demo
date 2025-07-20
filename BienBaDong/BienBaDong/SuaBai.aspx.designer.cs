@@ -24,13 +24,40 @@ namespace BienBaDong
         protected global::System.Web.UI.WebControls.Label lblMessage;
 
         /// <summary>
-        /// txtTieuDe control.
+        /// txtMaBaiViet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTieuDe;
+        protected global::System.Web.UI.WebControls.TextBox txtMaBaiViet;
+
+        /// <summary>
+        /// ddlAn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlAn;
+
+        /// <summary>
+        /// txtTenBaiViet control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtTenBaiViet;
+
+        /// <summary>
+        /// ddlTheLoai control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlTheLoai;
 
         /// <summary>
         /// txtNoiDung control.
@@ -42,12 +69,12 @@ namespace BienBaDong
         protected global::System.Web.UI.WebControls.TextBox txtNoiDung;
 
         /// <summary>
-        /// btnCapNhat control.
+        /// btnLuu control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCapNhat;
+        protected global::System.Web.UI.WebControls.Button btnLuu;
     }
 }

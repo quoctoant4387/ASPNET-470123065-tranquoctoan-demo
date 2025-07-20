@@ -33,7 +33,7 @@ namespace BienBaDong
                     Session["TenDangNhap"] = username;
                     Session["Quyen"] = quyen.ToString();
 
-                    if (quyen.ToString() == "admin")
+                    if (string.Equals(quyen.ToString(), "Admin", StringComparison.OrdinalIgnoreCase))
                         Response.Redirect("AdminPage.aspx");
                     else
                         Response.Redirect("TrangChu.aspx");

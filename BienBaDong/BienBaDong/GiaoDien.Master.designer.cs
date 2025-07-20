@@ -51,6 +51,24 @@ namespace BienBaDong
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl menuQuanLyBaiViet;
 
         /// <summary>
+        /// liTrangChu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liTrangChu;
+
+        /// <summary>
+        /// liLienHe control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLienHe;
+
+        /// <summary>
         /// liChaoMung control.
         /// </summary>
         /// <remarks>
@@ -114,6 +132,15 @@ namespace BienBaDong
         protected global::System.Web.UI.WebControls.HyperLink lnkDangXuat;
 
         /// <summary>
+        /// liDangNhap control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liDangNhap;
+
+        /// <summary>
         /// lnkDangNhap control.
         /// </summary>
         /// <remarks>
@@ -121,6 +148,15 @@ namespace BienBaDong
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink lnkDangNhap;
+
+        /// <summary>
+        /// liDangKy control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liDangKy;
 
         /// <summary>
         /// lnkDangKy control.

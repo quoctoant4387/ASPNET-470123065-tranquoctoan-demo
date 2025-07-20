@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Configuration;
 using System.Data.SqlClient;
-using System.Runtime.Remoting.Messaging;
 
 namespace BienBaDong
 {
@@ -32,16 +31,18 @@ namespace BienBaDong
                 if (rd.Read())
                 {
                     txtTenDangNhap.Text = rd["TenDangNhap"].ToString();
+                    // **Dòng bổ sung để hiện mật khẩu**
+                    if (rd["MatKhau"] != DBNull.Value)
+                        txtMatKhau.Text = rd["MatKhau"].ToString();
+
                     txtHoTen.Text = rd["HoTen"].ToString();
                     ddlGioiTinh.SelectedValue = rd["GioiTinh"].ToString();
                     txtEmail.Text = rd["Email"].ToString();
 
+                    if (rd["NgaySinh"] != DBNull.Value)
                     {
-                        if (rd["NgaySinh"] != DBNull.Value)
-                        {
-                            DateTime ngaySinh = Convert.ToDateTime(rd["NgaySinh"]);
-                            txtNgaySinh.Text = ngaySinh.ToString("yyyy-MM-dd");
-                        }
+                        DateTime ngaySinh = Convert.ToDateTime(rd["NgaySinh"]);
+                        txtNgaySinh.Text = ngaySinh.ToString("yyyy-MM-dd");
                     }
                 }
             }
