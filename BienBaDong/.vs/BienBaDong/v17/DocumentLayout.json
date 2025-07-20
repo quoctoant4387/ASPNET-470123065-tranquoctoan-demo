@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\thongtintaikhoan.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\giaodien.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\giaodien.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\danhsachbaiviet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\danhsachbaiviet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\danhsachbaiviet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\danhsachbaiviet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\quanlybaiviet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\quanlybaiviet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\baiviet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\baiviet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\baiviet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\baiviet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\baivietall.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\baivietall.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\quanlybaiviet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\quanlybaiviet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\thongtintaikhoan.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\thongtintaikhoan.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\thongtintaikhoan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\thongtintaikhoan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\thongtintaikhoan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\quanlytaikhoan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\bienbadong\\quanlytaikhoan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\quanlytaikhoan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\dangnhap.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\dangnhap.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\dangnhap.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\dangnhap.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|c:\\users\\quoct\\documents\\aspnet-vx23ttk10-tranquoctoan-demo\\bienbadong\\bienbadong\\giaodien.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{9B4C5C2D-751E-4A04-9020-6AE43C53332E}|BienBaDong\\BienBaDong.csproj|solutionrelative:bienbadong\\giaodien.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,76 +54,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DangNhap.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DangNhap.aspx.cs",
-              "RelativeDocumentMoniker": "BienBaDong\\DangNhap.aspx.cs",
-              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DangNhap.aspx.cs",
-              "RelativeToolTip": "BienBaDong\\DangNhap.aspx.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T06:34:49.624Z",
+              "DocumentIndex": 5,
+              "Title": "BaiViet.aspx",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\BaiViet.aspx",
+              "RelativeDocumentMoniker": "BienBaDong\\BaiViet.aspx",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\BaiViet.aspx",
+              "RelativeToolTip": "BienBaDong\\BaiViet.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-20T08:57:24.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DangNhap.aspx",
-              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DangNhap.aspx",
-              "RelativeDocumentMoniker": "BienBaDong\\DangNhap.aspx",
-              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DangNhap.aspx",
-              "RelativeToolTip": "BienBaDong\\DangNhap.aspx",
+              "DocumentIndex": 6,
+              "Title": "BaiVietAll.aspx",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\BaiVietAll.aspx",
+              "RelativeDocumentMoniker": "BienBaDong\\BaiVietAll.aspx",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\BaiVietAll.aspx",
+              "RelativeToolTip": "BienBaDong\\BaiVietAll.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-07-19T06:28:45.232Z",
+              "WhenOpened": "2025-07-20T08:57:21.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "QuanLyTaiKhoan.aspx",
-              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyTaiKhoan.aspx",
-              "RelativeDocumentMoniker": "BienBaDong\\QuanLyTaiKhoan.aspx",
-              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyTaiKhoan.aspx",
-              "RelativeToolTip": "BienBaDong\\QuanLyTaiKhoan.aspx",
+              "Title": "DanhSachBaiViet.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DanhSachBaiViet.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\DanhSachBaiViet.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DanhSachBaiViet.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\DanhSachBaiViet.aspx.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAwwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T08:19:08.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuanLyBaiViet.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyBaiViet.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\QuanLyBaiViet.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyBaiViet.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\QuanLyBaiViet.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:57:22.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuanLyBaiViet.aspx",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyBaiViet.aspx",
+              "RelativeDocumentMoniker": "BienBaDong\\QuanLyBaiViet.aspx",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyBaiViet.aspx",
+              "RelativeToolTip": "BienBaDong\\QuanLyBaiViet.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-07-19T05:56:17.905Z",
+              "WhenOpened": "2025-07-20T02:57:18.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ThongTinTaiKhoan.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\ThongTinTaiKhoan.aspx.cs",
-              "RelativeDocumentMoniker": "BienBaDong\\ThongTinTaiKhoan.aspx.cs",
-              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\ThongTinTaiKhoan.aspx.cs",
-              "RelativeToolTip": "BienBaDong\\ThongTinTaiKhoan.aspx.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T05:24:30.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ThongTinTaiKhoan.aspx",
-              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\ThongTinTaiKhoan.aspx",
-              "RelativeDocumentMoniker": "BienBaDong\\ThongTinTaiKhoan.aspx",
-              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\ThongTinTaiKhoan.aspx",
-              "RelativeToolTip": "BienBaDong\\ThongTinTaiKhoan.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-07-19T05:19:40.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "GiaoDien.Master",
               "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\GiaoDien.Master",
               "RelativeDocumentMoniker": "BienBaDong\\GiaoDien.Master",
@@ -113,6 +133,68 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-07-19T04:17:38.707Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DanhSachBaiViet.aspx",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DanhSachBaiViet.aspx",
+              "RelativeDocumentMoniker": "BienBaDong\\DanhSachBaiViet.aspx",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\DanhSachBaiViet.aspx",
+              "RelativeToolTip": "BienBaDong\\DanhSachBaiViet.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-20T08:36:06.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaiViet.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\BaiViet.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\BaiViet.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\BaiViet.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\BaiViet.aspx.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T08:57:37.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QuanLyTaiKhoan.aspx",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyTaiKhoan.aspx",
+              "RelativeDocumentMoniker": "BienBaDong\\QuanLyTaiKhoan.aspx",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\QuanLyTaiKhoan.aspx",
+              "RelativeToolTip": "BienBaDong\\QuanLyTaiKhoan.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-19T05:56:17.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ThongTinTaiKhoan.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\ThongTinTaiKhoan.aspx.cs",
+              "RelativeDocumentMoniker": "BienBaDong\\ThongTinTaiKhoan.aspx.cs",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\ThongTinTaiKhoan.aspx.cs",
+              "RelativeToolTip": "BienBaDong\\ThongTinTaiKhoan.aspx.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T05:24:30.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ThongTinTaiKhoan.aspx",
+              "DocumentMoniker": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\ThongTinTaiKhoan.aspx",
+              "RelativeDocumentMoniker": "BienBaDong\\ThongTinTaiKhoan.aspx",
+              "ToolTip": "C:\\Users\\quoct\\Documents\\ASPNET-VX23TTK10-tranquoctoan-demo\\BienBaDong\\BienBaDong\\ThongTinTaiKhoan.aspx",
+              "RelativeToolTip": "BienBaDong\\ThongTinTaiKhoan.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-19T05:19:40.448Z"
             }
           ]
         }

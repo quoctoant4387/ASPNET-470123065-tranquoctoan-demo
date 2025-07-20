@@ -16,32 +16,52 @@ namespace BienBaDong
             string username = txtUsername.Text.Trim();
             string password = txtPassword.Text.Trim();
 
-            string connStr = ConfigurationManager.ConnectionStrings["ChuoiKetNoi"].ConnectionString;
+            string connStr = ConfigurationManager
+                .ConnectionStrings["ChuoiKetNoi"]
+                .ConnectionString;
 
             using (SqlConnection conn = new SqlConnection(connStr))
             {
-                string sql = "SELECT Quyen FROM NguoiDung WHERE TenDangNhap = @Ten AND MatKhau = @MatKhau";
-                SqlCommand cmd = new SqlCommand(sql, conn);
-                cmd.Parameters.AddWithValue("@Ten", username);
-                cmd.Parameters.AddWithValue("@MatKhau", password);
+                // Lấy cả MaNguoiDung và Quyen
+                string sql = @"
+                    SELECT MaNguoiDung, Quyen
+                    FROM NguoiDung
+                    WHERE TenDangNhap = @Ten
+                      AND MatKhau     = @MatKhau";
 
-                conn.Open();
-                object quyen = cmd.ExecuteScalar();
-
-                if (quyen != null && quyen != DBNull.Value)
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
                 {
-                    Session["TenDangNhap"] = username;
-                    Session["Quyen"] = quyen.ToString();
+                    cmd.Parameters.AddWithValue("@Ten", username);
+                    cmd.Parameters.AddWithValue("@MatKhau", password);
 
-                    if (string.Equals(quyen.ToString(), "Admin", StringComparison.OrdinalIgnoreCase))
-                        Response.Redirect("AdminPage.aspx");
-                    else
-                        Response.Redirect("TrangChu.aspx");
+                    conn.Open();
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        if (dr.Read())
+                        {
+                            // Gán đầy đủ vào Session
+                            Session["MaNguoiDung"] = dr["MaNguoiDung"].ToString();
+                            Session["TenDangNhap"] = username;
+                            Session["Quyen"] = dr["Quyen"].ToString();
+
+                            // Redirect tuỳ quyền
+                            if (string.Equals(dr["Quyen"].ToString(),
+                                              "Admin",
+                                              StringComparison.OrdinalIgnoreCase))
+                            {
+                                Response.Redirect("AdminPage.aspx");
+                            }
+                            else
+                            {
+                                Response.Redirect("TrangChu.aspx");
+                            }
+                            return;
+                        }
+                    }
                 }
-                else
-                {
-                    lblThongBao.Text = "Tên đăng nhập hoặc mật khẩu không đúng.";
-                }
+
+                // Nếu không có kết quả
+                lblThongBao.Text = "Tên đăng nhập hoặc mật khẩu không đúng.";
             }
         }
     }

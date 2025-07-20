@@ -9,12 +9,13 @@
     <style>
         .navbar { margin-bottom: 0; border-radius: 0; }
         footer { background-color: #f2f2f2; padding: 20px; }
-        .carousel-inner img { width: 100%; margin: auto; min-height: 200px; max-height: 300px; }
+        .carousel-inner img { width: 100%; margin: auto; min-height: 100px; max-height: 200px; }
         @media (max-width: 600px) { .carousel-caption { display: none; } }
         .page-title { font-size: 40px; color: #007BFF; font-weight: bold; text-align: center; margin: 20px 0; }
         .active > a, .active > a:focus, .active > a:hover { background-color: #337ab7 !important; color: #fff !important; }
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
 </head>
 <body>
     <nav class="navbar navbar-inverse">
@@ -74,15 +75,15 @@
             </div>
         </div>
     </nav>
-    <div class="page-title">
-        GIỚI THIỆU DU LỊCH BIỂN BA ĐỘNG - TRÀ VINH
-    </div>
-
-    <!-- carousel ... giữ nguyên như bạn cũ -->
-
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- carousel-indicators và inner ... (giữ như code của bạn) -->
-    </div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="Hinh/bien 1.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>GIỚI THIỆU DU LỊCH BIỂN BA ĐỘNG - TRÀ VINH</h3>
+        </div>      
+      </div>
+        </div>
 
     <div class="container-fluid text-center">    
         <div class="row">
